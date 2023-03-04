@@ -40,4 +40,5 @@ jobs:
 
       - name: Execute bb tests
         run: |
+          bb --version
           bb test:bb
